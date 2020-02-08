@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>This is the title of the webpage!</title>
+</head>
+
+<body>
+  <div>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input hidden name="auth" value={{hiddenToken}} >
+      <input type="file" name="data">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>
